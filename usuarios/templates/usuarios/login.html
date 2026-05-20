@@ -1,1 +1,27 @@
-"Olá, sou Laís e esta é a página de login dos usuários."
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <div class="container">
+        <form action="/login" method="post">
+            <div class="input-email">
+                <label for ="usermails">E-mail:</label>
+                <input type="email" id="usermails" name="email"><br><br>
+            </div>
+            <div class="input-password">
+                <label for="userpassword">Senha :</label>
+                <input type="password" id="userpassword" name="senha"><br><br>
+            </div>
+            <div class="login-button">
+                <button clas="login-b" type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
